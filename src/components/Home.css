@@ -1,0 +1,45 @@
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.App {
+    display: flex;
+    margin: auto;
+}
+
+.foodCard {
+    display: flex;
+    border: 1px black solid;
+    margin: 10px;
+    padding: 2px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+
+.btnAdd {
+    background-color: black;
+    color: yellow;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.home {
+    display: flex;
+    width: 100%;
+}
+
+.meni {
+    display: block;
+    width: 80%;
+}
+
+.korpa {
+    border: 1px solid black;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    width: 20%;
+}

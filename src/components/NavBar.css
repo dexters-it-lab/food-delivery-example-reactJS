@@ -1,0 +1,21 @@
+.navbar {
+    background-color: blueviolet;
+    color: white;
+    padding: 20px;
+    text-align: end;
+
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    border: 1px solid;
+    padding: 2px;
+
+}
+
+.active {
+    background-color: white;
+    color: blueviolet !important;
+}
