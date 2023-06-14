@@ -137,6 +137,7 @@ export const Home = () => {
                 <h3> Total cena: {totalPrice} RSD </h3>
                 <h3> pdv : {totalPrice * 0.2} RSD</h3>
                 <h3> dostava : {totalPrice > 2000 ? 0 : 300} RSD </h3>
+                <button> Place your order</button>
             </div>
 
         </div>
