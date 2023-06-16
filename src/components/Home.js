@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { db } from "./firebase-config"
-import { collection, getDocs } from "firebase/firestore"
+import { collection, doc, getDocs, setDoc } from "firebase/firestore"
 
 import {
     onAuthStateChanged,
@@ -17,11 +17,20 @@ export const Home = () => {
     const [pica, setPica] = useState([]);
     const picaDBRef = collection(db, 'collection-pica')
 
+    const pordersDBref = collection(db, 'collection-orders')
+
     const [porudzbine, setPorudzbine] = useState([]);
 
     const totalPrice = porudzbine.reduce(
         (total, porudzbina) => total + porudzbina.kolicina * porudzbina.cena, 0);
 
+    const saveorder = async () => {
+     
+        await setDoc(doc(db, "collection-orders", "order"),
+            { "user": " test", "order": porudzbine})
+            
+        setPorudzbine([])
+    }
 
     const remove = (izabrano) => {
         const postoji = porudzbine.find((x) => x.id === izabrano.id)
@@ -137,7 +146,7 @@ export const Home = () => {
                 <h3> Total cena: {totalPrice} RSD </h3>
                 <h3> pdv : {totalPrice * 0.2} RSD</h3>
                 <h3> dostava : {totalPrice > 2000 ? 0 : 300} RSD </h3>
-                <button> Place your order</button>
+                <button onClick={ () => saveorder()} > Place your order</button>
             </div>
 
         </div>
