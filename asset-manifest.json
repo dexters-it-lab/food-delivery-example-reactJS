@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/dexters-it-lab/food-delivery-example-reactJS/static/css/main.f8dd903b.css",
-    "main.js": "/dexters-it-lab/food-delivery-example-reactJS/static/js/main.d5a3a71c.js",
-    "static/js/787.ae0cd389.chunk.js": "/dexters-it-lab/food-delivery-example-reactJS/static/js/787.ae0cd389.chunk.js",
-    "index.html": "/dexters-it-lab/food-delivery-example-reactJS/index.html",
-    "main.f8dd903b.css.map": "/dexters-it-lab/food-delivery-example-reactJS/static/css/main.f8dd903b.css.map",
-    "main.d5a3a71c.js.map": "/dexters-it-lab/food-delivery-example-reactJS/static/js/main.d5a3a71c.js.map",
-    "787.ae0cd389.chunk.js.map": "/dexters-it-lab/food-delivery-example-reactJS/static/js/787.ae0cd389.chunk.js.map"
+    "main.css": "/food-delivery-example-reactJS/static/css/main.f8dd903b.css",
+    "main.js": "/food-delivery-example-reactJS/static/js/main.1d258aae.js",
+    "static/js/787.ae0cd389.chunk.js": "/food-delivery-example-reactJS/static/js/787.ae0cd389.chunk.js",
+    "index.html": "/food-delivery-example-reactJS/index.html",
+    "main.f8dd903b.css.map": "/food-delivery-example-reactJS/static/css/main.f8dd903b.css.map",
+    "main.1d258aae.js.map": "/food-delivery-example-reactJS/static/js/main.1d258aae.js.map",
+    "787.ae0cd389.chunk.js.map": "/food-delivery-example-reactJS/static/js/787.ae0cd389.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f8dd903b.css",
-    "static/js/main.d5a3a71c.js"
+    "static/js/main.1d258aae.js"
   ]
 }
